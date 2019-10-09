@@ -1,0 +1,40 @@
+{
+  "name": "express-to-datastructure",
+  "version": "1.0.0",
+  "description": "This is a mini-project of studying how to persist data in datastructure",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-scholar/express-to-datastructure.git"
+  },
+  "keywords": [
+    "express",
+    "REST-api",
+    "data-structure",
+    "git"
+  ],
+  "author": "descholar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/de-scholar/express-to-datastructure/issues"
+  },
+  "homepage": "https://github.com/de-scholar/express-to-datastructure#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
